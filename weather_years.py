@@ -9,6 +9,6 @@ header = linhas[0]
 
 for l in range(1, len(linhas)):
     colunas = linhas[l].split(',')
-    colunas = map(float, colunas[4:])
-    print(sum(list(colunas)))
+    valores = map(float, colunas[4:])
+    print(sum(list(valores)))
     break
